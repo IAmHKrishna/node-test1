@@ -3,7 +3,7 @@ const http = require("http")
 const server = http.createServer((req,res)=>{
     res.writeHead(200,{"Content-Type":"application/json"})
 
-    res.end(JSON.stringify({ name: "hello world" }));
+    res.end(JSON.stringify({ name: "hello world1" }));
 })
 
 // server.listen(80)
