@@ -7,6 +7,6 @@ const server = http.createServer((req,res)=>{
 })
 
 server.listen(80)
-// server.listen(3000,()=>{
-//     console.log("server is running on 30000")
-// })
+server.listen(3000,()=>{
+    console.log("server is running on 30000")
+})
