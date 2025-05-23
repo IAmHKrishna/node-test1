@@ -6,7 +6,7 @@ const server = http.createServer((req,res)=>{
     res.end(JSON.stringify({ name: "hello world" }));
 })
 
-server.listen(80)
+// server.listen(80)
 server.listen(3000,()=>{
     console.log("server is running on 30000")
 })
